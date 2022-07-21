@@ -6,16 +6,12 @@
     width: 15%;
 }
 
-.texto_centralizado {
-    text-align: center;
-}
-
 .bloco {
     display: flex;
     width: 100%;
     align-items: center;
     align-content: center;
-    background-color: aqua;
+
 }
 
 h1 {
@@ -24,7 +20,7 @@ h1 {
 }
 
 #logo {
-    padding-right: 200px;
+    padding-right: 100px;
 }
 
 #sobre {
@@ -33,4 +29,16 @@ h1 {
 
 #contato {
     padding-right: 200px;
+}
+
+.texto_centralizado {
+    text-align: center;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+p {
+   font-size: 20px; 
 }
