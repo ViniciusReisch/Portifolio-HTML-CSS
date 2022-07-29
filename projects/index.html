@@ -2,30 +2,42 @@
 <html lang="PT-BR">
     <head>
         <meta charset="UTF-8">
-        <title>Portifolio</title>
+        <title>Portifolio Vinicius Reisch</title>
         <link rel="stylesheet" href="style.css">
     </head>
 <body>
-    <header>
-        <div class="bloco">
-            <img src="Logo_grafiti_textura.png" id="logo">
-            <a href="http://127.0.0.1:5500/sobre.html">
-                <h1 id="sobre"> Sobre Mim</h1>
-            </a>
-            <a href="">
-                <h1 id="contato"> Contato</h1>
-            </a>
-            <a href="">
-                <h1 id="projetos"> Projetos</h1>
-            </a>
-        </div>
-    </header>
-<div>
-    <img src="image.png" id="image">
-</div>
-<div>
-    <h2 class="texto_centralizado"> Vinicius Reisch </h2>
-    <p class="texto_centralizado"> Nascido em Blumenau, SC, sempre teve interesse por tecnologia e seu funcionamento </p>
-</div>
+
+    <!-- NAVEGAR PELA PAGINA -->
+
+    <section>
+
+        <nav>
+            <a href="" class="logo"> <img src="Logo_grafiti_textura.png" alt="" style="width: 20%;"> </a>
+
+            <ul>
+                <li><a href="" class="active"> Home </a></li>
+                <li><a href=""> Sobre </a></li>
+                <li><a href=""> Projetos </a></li>
+                <li><a href=""> Contato </a></li>
+            </ul>
+        </nav>
+    </section>
+
+    <!--  TEXTO DA PAGINA -->
+    
+    <div class="conteudo-texto">
+        <p>Bem-Vindos</p>
+        <p>Eu sou Vinicius Reisch </p>
+        <p>Sou Python Developer </p>
+
+        <button class="btn2">Saiba Mais</button>
+        <button class="btn1">Download CV</button>
+    </div>    
+
+    <!--  CARREGANDO IMAGENS DE FUNDO -->
+
+    <div>
+        <img src="image.png" class="imgbg" alt="imgbg">
+    </div>
 </body>
 </html>
